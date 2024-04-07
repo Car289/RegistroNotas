@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.notas;
+package ar.edu.unju.fi.model;
 
 public class Materia {
 	
@@ -9,7 +9,6 @@ public class Materia {
 		
 	}
 	
-
 	public Materia(String codigo, String nombre) {
 		super();
 		this.codigo = codigo;

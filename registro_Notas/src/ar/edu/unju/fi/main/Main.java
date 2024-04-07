@@ -1,8 +1,8 @@
 package ar.edu.unju.fi.main;
+import ar.edu.unju.fi.model.Alumno;
+import ar.edu.unju.fi.model.Materia;
+import ar.edu.unju.fi.model.RegistroNotas;
 import java.util.Scanner;
-import ar.edu.unju.fi.notas.Alumno;
-import ar.edu.unju.fi.notas.Materia;
-import ar.edu.unju.fi.notas.RegistroNotas;
 
 public class Main {
 
@@ -13,8 +13,8 @@ public class Main {
 		
 	}	
 	public static Alumno generarAlumno() {
-		Alumno alumno = new Alumno();
 		Scanner scanner = new Scanner(System.in);
+		Alumno alumno = new Alumno();
 		System.out.println("Ingrese el legajo: ");
 		Integer legajo = scanner.nextInt();
 		System.out.println("Ingrese el apellido: ");
@@ -25,7 +25,6 @@ public class Main {
 		alumno.setLegajo(legajo);
 		alumno.setApellido(apellido);
 		alumno.setNombre(nombre);
-		scanner.close();
 		return alumno;
 	}
 	
@@ -48,8 +47,7 @@ public class Main {
 			System.out.println(registroNotas.toString());
 			numMateria++;
 			scanner.close();
-		}
-			
+		}		
 	}
 	
 }

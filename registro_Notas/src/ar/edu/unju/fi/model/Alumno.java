@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.notas;
+package ar.edu.unju.fi.model;
 
 public class Alumno {
 	private Integer legajo;
@@ -44,7 +44,5 @@ public class Alumno {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
-	
+		
 }

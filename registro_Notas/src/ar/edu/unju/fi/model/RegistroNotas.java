@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.notas;
+package ar.edu.unju.fi.model;
 
 public class RegistroNotas {
 	private String codigo;
@@ -56,5 +56,4 @@ public class RegistroNotas {
 	public void setNotaFinal(float notaFinal) {
 		this.notaFinal = notaFinal;
 	}
-	
 }
